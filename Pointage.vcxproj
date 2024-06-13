@@ -22,11 +22,16 @@
     <ClCompile Include="Source\Core\Core.cpp" />
     <ClCompile Include="Source\D3D12RHI\D3D12RHI.cpp" />
     <ClCompile Include="Source\RenderGraph\RenderGraph.cpp" />
+    <ClCompile Include="Source\UsageSample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Define.h" />
     <ClInclude Include="Include\Pointage.h" />
     <ClInclude Include="Source\Common\Common.h" />
+    <ClInclude Include="Source\Pointage\Painter.h" />
+    <ClInclude Include="Source\RenderGraph\RenderResource.h" />
+    <ClInclude Include="Source\RenderGraph\ResourceView.h" />
+    <ClInclude Include="Source\RHI\RHIResource.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <Keyword>Win32Proj</Keyword>
